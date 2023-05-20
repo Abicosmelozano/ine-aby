@@ -1,0 +1,105 @@
+
+/*Todo el cuerpo de la pagina, tipo de letra, margen, relleno y color*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+ /* margin: 400;*/
+ /* padding: 300px;*/
+  background-color: white;
+
+ /* display: flex;*/
+ /* align-items: center;*/
+}
+/*Cuadro de la tarjeta 
+Fondo, ancho, margen, estilo del borde:
+establece un borde de 1 píxel de ancho, de tipo sólido y de color gris claro
+border-radiu: Es una propiedad en CSS que permite establecer la curvatura de los bordes de un elemento, lo que puede ayudar a suavizar el diseño y crear esquinas redondeadas.
+padding: Se utiliza para establecer el espacio o relleno entre el contenido de un elemento y sus bordes*/
+.ine-card {
+  background-color: rgba(247, 241, 241, 0.979);
+  font-size: 10px;
+  max-width: 500px;
+  max-height: 400px;
+  text-align: left;
+  /*margin: 5;*/
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1px;
+ 
+ 
+}
+/*display: flex; : Establece un contenedor como un contenedor flexible para aplicar el modelo de caja flexible o Flexbox a sus elementos secundarios.
+*/
+.header {
+  display: flex;
+  align-items: right;/*Mover foto del logo*/
+  margin-bottom: 10px;
+ 
+  background-color: #e0d7d7;
+  padding:2px;
+  border-radius: 0 0 100% 100%;
+/*  overflow: hidden;*/
+
+}
+/*Alto y ancho de la foto
+margen de lado derecho e izquierdo*/
+.logo {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  margin-left: 30px;
+  text-align:left;
+}
+
+/*como va a ir la informacion*/
+.personal-info {
+  display: flex;
+ 
+  /*align-items: flex-start;*/
+  /*margin-bottom: 15px;*/
+}
+
+/*Ancho y alto de foto
+borde y margen de las letras*/
+.photo-container {
+  width: 100px;
+  height: 150px;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+ /* object-fit: cover;*/
+}
+/*
+.details {
+  flex-grow: 1;
+}
+
+.details p {
+  margin-bottom: 1px;
+}
+
+.barcode {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.barcode-img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.footer {
+  text-align: center;
+  font-size: 20px;
+  color: #999;
+}
+*/
+
+p {
+  margin: 0;
+}
